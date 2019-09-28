@@ -6,12 +6,12 @@
   <div class="row" id="mainContent">
     <app-sidebar 
       id="sideBar" 
-      class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
+      class="col-sm-3 col-md-2 d-none d-sm-block bg-dark sidebar">
     </app-sidebar>
-    <div class="col-sm-9" id="dashboard">
+    <div class="col-sm-9 ml-sm-auto col-md-10 pt-3" id="dashboard">
       <h1>{{title}}</h1>
       <h2>{{subtitle}}</h2>
-      <p>Content goes here.</p>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
