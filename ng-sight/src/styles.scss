@@ -1,8 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    background:#333;
-    color:#fff;
+html{
+    height:100%;
 }
-#page_wrapper{
-    
+body{
+    font-family: 'Source Sans Pro' , sans-serif;
+    // font-family: 'Mansalva', cursive;
+    background:#335;
+    color:#DDD;
+}
+a{
+    color:#4ac;
+    text-decoration: none;
+}
+a:hover{
+    color:#8CC;
+}
+.shadow{
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2),
+        0 5px 6px rgba(0,0,0,0.4)
+}
+.section-container{
+    padding:30px;
 }
